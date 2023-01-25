@@ -38,8 +38,20 @@
 // const res2 = less(-5);
 // console.log(res2);
 
-function getLength(string) {
-    return string.length;
+// function getLength(string) {
+//     return string.length;
+// }
+
+// console.log(getLength("Privet"));
+
+
+function star(a) {
+    for (let i = 0; i <= a; i++) {
+        let stars = "";
+        for (let k = 0; k < i; k++)
+            stars = stars + "* ";
+        console.log(stars);    
+    }
 }
 
-console.log(getLength("Privet"));
+star(4);
