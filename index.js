@@ -54,4 +54,4 @@ function star(a) {
     }
 }
 
-star(4);
+star(5);
